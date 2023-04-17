@@ -1,0 +1,36 @@
+h1, 
+.card {
+    font-family: 'Poppins', sans-serif;
+    color: #192E44;
+}
+
+h1 {
+    background: linear-gradient( 96deg,#192E44 2%, #CEEFAE 230% );
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.card-title {
+    background: linear-gradient( 96deg,#192E44 8%, #90B2D6 280% );
+}
+
+.car-image {
+    transition: transform 0.4s ease;
+    transform: scale(0.95);
+}
+
+.car-image:hover {
+    transform: scale(1);
+    width: 100%;
+}
+
+.list-group-item {
+    color: #192E44 !important;
+    padding-right: 30px !important;
+    transition: 0.3s ease all;
+}
+
+.list-group-item:hover {
+    background-color: #EFFAE4;
+}

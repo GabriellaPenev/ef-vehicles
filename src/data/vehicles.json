@@ -1,0 +1,56 @@
+[
+    {
+        "Year": 2023,
+        "Make": "Ford",
+        "Model": "F-150 XL",
+        "EngineDetail": "3.5L V-6 4WD Regular Cab 141.0\"WB 8'Box 17\"Whls Specs",
+        "EngineType": "Combustion",
+        "Price": "$42,489",
+        "Image": "https://imageonthefly.autodatadirect.com/images/?IMG=USD30FOT111A021001.jpg"
+    },
+    {
+        "Year": 2023,
+        "Make": "Tesla",
+        "Model": "Model S Plaid",
+        "EngineDetail": "100KW Electric Motor w/1 Speed Automatic",
+        "EngineType": "Electric",
+        "Price": "$106,380",
+        "Image": "https://imageonthefly.autodatadirect.com/images/?IMG=USC70TSC024B021001.jpg"
+    },
+    {
+        "Year": 2023,
+        "Make": "Acura",
+        "Model": "RDX Base",
+        "EngineDetail": "2.0L 4 Cyl. w/10 Speed Automatic",
+        "EngineType": "Combustion",
+        "Price": "$41,711",
+        "Image": "https://imageonthefly.autodatadirect.com/images/?IMG=USC90ACS122A021001.jpg"
+    },
+    {
+        "Year": 2024,
+        "Make": "BMW",
+        "Model": "iX xDrive50",
+        "EngineDetail": "112KW Electric Motor w/1 Speed Automatic",
+        "EngineType": "Electric",
+        "Price": "$82,500",
+        "Image": "https://imageonthefly.autodatadirect.com/images/?IMG=USD30BMS351A021001.jpg"
+    },
+    {
+        "Year": 2023,
+        "Make": "Ford",
+        "Model": "E-Transit-350",
+        "EngineDetail": "68KW Electric Motor w/1 Speed Automatic",
+        "EngineType": "Electric",
+        "Price": "$57,665",
+        "Image": "https://imageonthefly.autodatadirect.com/images/?IMG=USD20FOV464A021001_2.jpg"
+    },
+    {
+        "Year": 2023,
+        "Make": "Audi",
+        "Model": "RS 6 Avant",
+        "EngineDetail": "4.0L 8 Cyl. w/8 Speed Automatic",
+        "EngineType": "Combustion",
+        "Price": "$115,682",
+        "Image": "https://imageonthefly.autodatadirect.com/images/?IMG=USD10AUC381A021001.jpg"
+    }
+]
