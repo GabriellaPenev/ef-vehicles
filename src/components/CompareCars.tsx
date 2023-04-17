@@ -1,6 +1,6 @@
 export function CompareCars(){
     return(
-        <div><p>Compare Cars</p></div>
+        <div><p></p></div>
 
     )
 }
