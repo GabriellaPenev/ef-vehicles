@@ -10,8 +10,8 @@ interface Props {
 const CompareModal: React.FC<Props> = ({ checkedCars, setCheckedCars }) => {
     return (
         <Modal show={checkedCars.length > 1} onHide={() => setCheckedCars([])} className='modal modal-xl'>
-            <Modal.Header closeButton className='modal-container'>
-                <Modal.Title className='fw-bold'>Selected Cars</Modal.Title>
+            <Modal.Header closeButton>
+                <Modal.Title className='fw-bold modal-title'>Selected Cars</Modal.Title>
             </Modal.Header>
             <Modal.Body className='modal-container'>
                 <div className="mobile-table">

@@ -5,10 +5,11 @@ h1,
     color: #192E44;
 }
 
-h1 {
+h1,
+.modal-title {
     text-align: center;
     background-clip: text;
-    background: linear-gradient( 96deg,#2D537B 20%, #CEEFAE 200% );
+    background: linear-gradient( 96deg,#2D537B 20%, #CEEFAE 220% );
     color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -72,8 +73,7 @@ input[type='checkbox'] {
     accent-color: #4C7E19;
 }
 
-.table,
-.modal {
+.table {
     color: white !important;
 }
 
