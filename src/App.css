@@ -1,18 +1,36 @@
 h1, 
-.card {
+.card,
+.modal {
     font-family: 'Poppins', sans-serif;
     color: #192E44;
 }
 
 h1 {
-    background: linear-gradient( 96deg,#2D537B 20%, #CEEFAE 200% );
-    background-clip: text;
-    color: transparent;
     text-align: center;
+    background-clip: text;
+    background: linear-gradient( 96deg,#2D537B 20%, #CEEFAE 200% );
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.card-title {
+.card-title,
+.modal-container,
+.button  {
     background: linear-gradient( 96deg,#192E44 8%, #90B2D6 280% );
+}
+
+.button {
+    transition: transform 0.1s ease!important;
+}
+
+.button:hover,
+.button:focus {
+    transform: scale(1.03);
+}
+
+.button:active {
+    transform: scale(1)
 }
 
 .car-image {
@@ -33,4 +51,33 @@ h1 {
 
 .list-group-item:hover {
     background-color: #EFFAE4;
+}
+
+.compare {
+    background-clip: text;
+    background: linear-gradient( 96deg,#2D537B 20%, #CEEFAE 200% );
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+}
+
+label, 
+input {
+    cursor: pointer;
+}
+
+input[type='checkbox'] {
+    width: 22px;
+    accent-color: #4C7E19;
+}
+
+.table,
+.modal {
+    color: white !important;
+}
+
+.mobile-table {
+    max-width: 100%;
+    overflow-x: auto;
 }

@@ -1,17 +1,10 @@
 import './App.css'
-import { Header } from './components/Header'
-import { CompareCars } from './components/CompareCars'
-import { DisplayCars } from './components/DisplayCars'
+import { Home } from './pages/Home'
 
 function App() {
 
   return (
-    <div className="container">
-      <Header />
-      <CompareCars />
-      <DisplayCars />
-
-    </div>
+    <Home/>
   )
 }
 
