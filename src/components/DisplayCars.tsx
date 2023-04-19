@@ -26,7 +26,7 @@ export function DisplayCars() {
         const checkedCars: Car[] = vehicles.filter((car) => checkedCarModels.includes(car.Model));
         setCheckedCars(checkedCars);
 
-        checkedCars.length <= 1 ? alert('you need to select more than 1 car to compare!') : null;
+        checkedCars.length <= 1 ? alert('Select more than 1 car to compare!') : null;
     };
 
     const clearCheckboxes = (): void => {
