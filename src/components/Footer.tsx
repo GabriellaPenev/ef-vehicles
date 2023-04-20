@@ -8,7 +8,7 @@ const scrollToTop = (): void => {
     });
 }
 
-export function Footer() {
+const Footer = () => {
     return (
         <footer className='my-2 d-flex justify-content-center'>
             <Button
@@ -21,3 +21,5 @@ export function Footer() {
         </footer>
     )
 }
+
+export default Footer;

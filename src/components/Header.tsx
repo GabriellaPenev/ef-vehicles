@@ -1,4 +1,4 @@
-export function Header() {
+const Header = () => {
     return (
         <header
             style={{ zIndex: 100 }}
@@ -12,3 +12,5 @@ export function Header() {
         </header>
     )
 }
+
+export default Header;

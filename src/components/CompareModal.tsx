@@ -1,13 +1,13 @@
 import { Modal } from 'react-bootstrap';
 import Table from 'react-bootstrap/Table'
-import { Car } from './DisplayCars';
+import { Car } from './DisplayVehicles';
 
 interface Props {
     checkedCars: Car[];
     setCheckedCars: React.Dispatch<React.SetStateAction<Car[]>>;
 }
 
-const CompareModal: React.FC<Props> = ({ checkedCars, setCheckedCars }) => {
+const CompareModal = ({ checkedCars, setCheckedCars }: Props) => {
     return (
         <Modal
             show={checkedCars.length > 1}
@@ -23,7 +23,6 @@ const CompareModal: React.FC<Props> = ({ checkedCars, setCheckedCars }) => {
             <Modal.Body className='modal-container'>
                 <div className="mobile-table">
                     <Table className='striped bordered table text-light'>
-                        <caption className='text-light'>List of compared cars</caption>
                         <thead>
                             <tr>
                                 <th>Make</th>
